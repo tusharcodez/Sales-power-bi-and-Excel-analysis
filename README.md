@@ -1,25 +1,59 @@
-📊 Sales Performance Dashboard – Power BI
+# Sales Performance Dashboard — Power BI & Excel
 
-This interactive dashboard provides a comprehensive overview of sales performance, profitability, and business trends across multiple dimensions such as products, regions, and customer segments.
+An end-to-end sales analytics project covering data cleaning, Excel dashboard design, and an interactive Power BI report with DAX measures across products, regions, and customer segments.
 
-The dashboard highlights key performance indicators including Total Profit (83K), Total Loss, and Profit Margin (8.90%), enabling quick evaluation of overall business health. A detailed breakdown of profit contribution by product is visualized using a donut chart, helping identify top-performing products like VTT and underperforming ones.
+![Dashboard Preview](dashboard_preview.png)
 
+---
 
-It also includes:
+## Project Overview
 
-📍 Geographical analysis using a map to track sales distribution across countries
-📉 Discount analysis to understand pricing strategies and their impact
-📊 Product-wise sales comparison through bar charts for better decision-making
-📈 Time-series analysis to monitor monthly sales trends
+| Tool | Purpose |
+|---|---|
+| Microsoft Excel | Data cleaning, pivot tables, Vrinda Store dashboard |
+| Power BI (DAX) | Interactive multi-page sales report |
 
-Interactive filters for Country, Year, Month, and Segment allow users to dynamically explore data and gain deeper insights.
+**Key metrics tracked:** Total Profit (83K), Profit Margin (8.90%), Discount Impact, Regional Sales Distribution
 
-🚀 Key Insights
-Identified high-profit products contributing majority share
-Analyzed impact of discounts on revenue
-Compared performance across different market segments
-Enabled data-driven decision-making through interactive visuals
-🛠 Tools Used
-Microsoft Power BI
-Data Modeling & DAX
-Data Cleaning & Transformation
+---
+
+## Dashboard Features
+
+- **KPI Cards** — Profit, Loss, and Margin at a glance
+- **Product Breakdown** — Donut chart highlighting top performers (e.g., VTT)
+- **Geo Analysis** — Country-level sales distribution via map visual
+- **Discount Analysis** — Pricing strategy impact on revenue
+- **Time Series** — Monthly sales trend line
+- **Interactive Filters** — Country, Year, Month, Segment slicers
+
+---
+
+## Key Insights
+
+- Top products contribute the majority of profit share
+- Discount depth negatively correlates with margin in mid-tier segments
+- Specific regions show consistently higher order volumes with lower discount dependency
+
+---
+
+## Files
+
+| File | Description |
+|---|---|
+| `Sales_Dashboard.pbix` | Power BI report file |
+| `Vrinda Store Data Analysis dashboard.xlsx` | Excel dashboard with pivot analysis |
+| `dashboard_preview.png` | Dashboard screenshot |
+
+---
+
+## How to Use
+
+1. Download `Sales_Dashboard.pbix` and open in [Power BI Desktop](https://powerbi.microsoft.com/)
+2. Download the `.xlsx` file and open in Microsoft Excel (2016+)
+3. Use the slicers to filter by Country, Year, Month, or Segment
+
+---
+
+## Tools & Skills
+
+`Power BI` `DAX` `Excel` `Pivot Tables` `Data Cleaning` `Data Visualization` `Sales Analytics`
